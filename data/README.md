@@ -75,11 +75,8 @@ python data/Tc_8055/pipeline_superconductor.py \
 
 ### MAX phases
 
-The MAX snapshot contains the four motif labels used in the manuscript.
-Type1 consists of source `type1` structures with one distinct M element; Type4
-contains source `type1` structures with two distinct M elements. Source
-`type2` and `type3` rows form Type2 and Type3. All Type4 structures are held
-out for testing.
+The `struct_type` column follows the Type1–4 definitions in the manuscript;
+Types 1–3 are used for training and Type 4 is held out for testing.
 
 The CSV supplies the DFT-evaluated CIF geometries and formation enthalpies used
 for screening. It does not contain the historical common-cell initial
