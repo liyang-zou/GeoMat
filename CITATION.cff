@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use GeoMat, please cite the accompanying article and this software release.
+title: "GeoMat: Bridging Data Scarcity and Generalization in Materials Discovery via Geometric Pre-training"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Zou
+    given-names: Liyang
+    affiliation: Tsinghua Shenzhen International Graduate School, Tsinghua University
+  - family-names: Zou
+    given-names: Xiaolong
+    affiliation: Tsinghua Shenzhen International Graduate School, Tsinghua University
+  - family-names: Duan
+    given-names: Wenhui
+    affiliation: Tsinghua University
+keywords:
+  - materials informatics
+  - self-supervised learning
+  - graph neural networks
+  - crystal property prediction

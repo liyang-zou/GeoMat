@@ -1,0 +1,9 @@
+data_name: jdft2d
+# Example JDFT2D 10% data-efficiency configuration.
+train_ratio: 0.1
+n_train: -1
+lr_finetune: 0.0005
+weight_decay_finetune: 0.0
+ph_lr: 0.0005
+ph_wd: 0.0
+batch_size_finetune: 32

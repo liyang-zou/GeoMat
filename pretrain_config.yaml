@@ -1,0 +1,32 @@
+# Example joint-objective pre-training configuration.
+# Set the five *_weight values to the coefficients selected by the two-epoch
+# gradient pilot for the chosen backbone.
+T: 0.2
+alpha: 1.5
+aug1: subgraph
+aug2: dropedge
+subgraph_method: random_walk
+batch_size: 256
+classification_loss: sce
+contrast_weight: 1
+denoise_weight: 1
+mask_weight: 1
+mask2_weight: 1
+lattice_weight: 1
+edge_hidden_MLP1: 64
+edge_hidden_MLP2: 64
+graph_hidden_MLP1: 128
+graph_hidden_MLP2: 128
+lr: 0.01
+mu: 0.0
+mu2: 0.0
+node_hidden_MLP1: 128
+node_hidden_MLP2: 64
+p: 0
+ratio: 0.1
+delete: 0.5
+remask: True
+sigma: 0.15
+sigma2: 0.05
+weight_decay: 0.000001
+z_dim: 64

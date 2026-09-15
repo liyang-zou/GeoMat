@@ -1,0 +1,13 @@
+task,unit,pretrain_size,mae
+JDFT2D,meV/atom,10000,43.63
+JDFT2D,meV/atom,100000,39.71
+JDFT2D,meV/atom,500000,38.38
+JDFT2D,meV/atom,1224387,36.2
+GVRH,log10(GPa),10000,0.088
+GVRH,log10(GPa),100000,0.084
+GVRH,log10(GPa),500000,0.082
+GVRH,log10(GPa),1224387,0.081
+MP_E_Form,eV/atom,10000,0.031
+MP_E_Form,eV/atom,100000,0.029
+MP_E_Form,eV/atom,500000,0.028
+MP_E_Form,eV/atom,1224387,0.027

@@ -165,7 +165,32 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+# GeoMat project settings and generated outputs
+.idea/
+.env.*
+!.env.example
+logs/
+runs/
+outputs/
+Drawing/
+.tmp*
+
+# Data caches and externally archived data/model files
+data/**/processed/
+data/raw/
+data/OQMD_MP_tot.csv
+data/Tc_AFM/dataset_with_atom_moments_final.csv
+data/exciton_c2db/c2db_exciton_dataset.pkl
+data/Tc_8055/superconductors_clean_dataset.pkl
+data/MAX/M2AX_data_3681.csv
+checkpoint/
+checkpoints/
+*.pth
+*.pth.tar
+*.pt
+*.pkl
+*.pk
+*.db
 
 # Ruff stuff:
 .ruff_cache/
